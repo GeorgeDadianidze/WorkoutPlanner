@@ -177,3 +177,9 @@ REST_AUTH = {
     "JWT_AUTH_COOKIE": "workout-app-cookie",
     "JWT_AUTH_REFRESH_COOKIE": "workout-refresh-cookie",
 }
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Exercises API",
+    "DESCRIPTION": "API for managing user exercises, goals, achievements and exercise plans",
+    "VERSION": "1.0.0",
+}
