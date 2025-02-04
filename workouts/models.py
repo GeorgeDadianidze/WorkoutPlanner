@@ -3,7 +3,6 @@ from django.db import models
 
 
 class Exercise(models.Model):
-    """Predefined exercise with details."""
 
     name = models.CharField(max_length=255)
     description = models.TextField()
@@ -15,7 +14,6 @@ class Exercise(models.Model):
 
 
 class WorkoutPlan(models.Model):
-    """User's personalized workout plan."""
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
@@ -29,7 +27,6 @@ class WorkoutPlan(models.Model):
 
 
 class WorkoutExercise(models.Model):
-    """Exercises linked to a user's workout plan."""
 
     workout_plan = models.ForeignKey(
         WorkoutPlan, on_delete=models.CASCADE, related_name="exercises"

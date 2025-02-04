@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     # Local Apps
     "workouts.apps.WorkoutsConfig",
+    "trackers.apps.TrackersConfig",
     # 3rd Party-apps
     "rest_framework",
     "rest_framework.authtoken",
