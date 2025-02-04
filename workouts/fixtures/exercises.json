@@ -1,0 +1,202 @@
+[
+    {
+        "model": "workouts.exercise",
+        "pk": 1,
+        "fields": {
+            "name": "Bench Press",
+            "target_muscles": "Chest",
+            "description": "A compound exercise for building upper body strength.",
+            "instructions": "Lie on a flat bench and lower the bar to your chest. Press it back up."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 2,
+        "fields": {
+            "name": "Squat",
+            "target_muscles": "Quadriceps, Hamstrings, Glutes",
+            "description": "A fundamental lower-body exercise for strength and stability.",
+            "instructions": "Stand with feet shoulder-width apart, lower your hips, and return to standing."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 3,
+        "fields": {
+            "name": "Deadlift",
+            "target_muscles": "Hamstrings, Glutes, Lower Back",
+            "description": "A total-body strength movement focused on posterior chain development.",
+            "instructions": "Hinge at the hips, grip the barbell, and lift it by extending your hips and knees."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 4,
+        "fields": {
+            "name": "Pull-Up",
+            "target_muscles": "Back, Biceps, Shoulders",
+            "description": "A bodyweight pulling exercise that strengthens the upper body.",
+            "instructions": "Hang from a bar with an overhand grip and pull your chin above the bar."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 5,
+        "fields": {
+            "name": "Lunges",
+            "target_muscles": "Quadriceps, Glutes, Hamstrings",
+            "description": "A unilateral lower-body movement improving balance and strength.",
+            "instructions": "Step forward, lower yourself until both knees form 90-degree angles, then push back up."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 6,
+        "fields": {
+            "name": "Plank",
+            "target_muscles": "Core, Shoulders",
+            "description": "A core stability exercise that strengthens the entire midsection.",
+            "instructions": "Hold your body in a straight line on your elbows and toes while engaging your core."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 7,
+        "fields": {
+            "name": "Shoulder Press",
+            "target_muscles": "Shoulders, Triceps",
+            "description": "An overhead pressing movement to build shoulder strength.",
+            "instructions": "Hold dumbbells at shoulder height and press them overhead, then lower."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 8,
+        "fields": {
+            "name": "Bicep Curl",
+            "target_muscles": "Biceps",
+            "description": "An isolation exercise to strengthen the biceps.",
+            "instructions": "Hold dumbbells with palms facing up and curl them towards your shoulders."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 9,
+        "fields": {
+            "name": "Triceps Dips",
+            "target_muscles": "Triceps, Shoulders",
+            "description": "A bodyweight exercise targeting the triceps.",
+            "instructions": "Grip parallel bars, lower your body by bending elbows, then push back up."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 10,
+        "fields": {
+            "name": "Calf Raises",
+            "target_muscles": "Calves",
+            "description": "An isolation movement for calf muscle development.",
+            "instructions": "Stand on a flat surface and raise your heels as high as possible, then lower."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 11,
+        "fields": {
+            "name": "Russian Twists",
+            "target_muscles": "Obliques, Core",
+            "description": "A rotational core exercise to enhance stability.",
+            "instructions": "Sit on the floor, lean back slightly, twist your torso side to side while holding a weight."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 12,
+        "fields": {
+            "name": "Jump Rope",
+            "target_muscles": "Legs, Core, Shoulders",
+            "description": "A cardio exercise that improves coordination and endurance.",
+            "instructions": "Jump continuously over a rope, keeping your feet together."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 13,
+        "fields": {
+            "name": "Burpees",
+            "target_muscles": "Full Body",
+            "description": "A high-intensity full-body conditioning movement.",
+            "instructions": "Start standing, drop into a squat, kick feet back, do a push-up, and jump up."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 14,
+        "fields": {
+            "name": "Kettlebell Swing",
+            "target_muscles": "Glutes, Hamstrings, Core",
+            "description": "A power exercise focused on hip drive.",
+            "instructions": "Swing the kettlebell forward using a hip hinge, then let it return."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 15,
+        "fields": {
+            "name": "Mountain Climbers",
+            "target_muscles": "Core, Shoulders, Legs",
+            "description": "A dynamic core and cardio movement.",
+            "instructions": "Start in a plank position, alternate bringing knees to chest quickly."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 16,
+        "fields": {
+            "name": "Leg Raises",
+            "target_muscles": "Lower Abs, Core",
+            "description": "An isolation exercise for lower abdominal strength.",
+            "instructions": "Lie on your back, lift your legs while keeping them straight, then lower slowly."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 17,
+        "fields": {
+            "name": "Face Pulls",
+            "target_muscles": "Rear Delts, Traps",
+            "description": "A shoulder exercise improving posture and stability.",
+            "instructions": "Use a cable machine, pull the rope towards your face while keeping elbows high."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 18,
+        "fields": {
+            "name": "Chest Fly",
+            "target_muscles": "Chest",
+            "description": "An isolation movement for chest development.",
+            "instructions": "Lie on a bench with dumbbells, lower arms out, then bring them back together."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 19,
+        "fields": {
+            "name": "Seated Row",
+            "target_muscles": "Lats, Biceps",
+            "description": "A pulling movement for back development.",
+            "instructions": "Sit at a cable machine, pull the handle towards your torso, then extend arms."
+        }
+    },
+    {
+        "model": "workouts.exercise",
+        "pk": 20,
+        "fields": {
+            "name": "Box Jumps",
+            "target_muscles": "Legs, Glutes",
+            "description": "A plyometric exercise to improve explosive power.",
+            "instructions": "Jump onto a sturdy box, land softly, then step down."
+        }
+    }
+]
